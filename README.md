@@ -8,9 +8,10 @@
 ### 可以使用PM2进行服务的托管
     ```
     npm install pm2 -g
+    pm2 start server.js
     ```
 
 ### 启动后台服务
     ```
-    npm run || node server.js
+    npm run start || node server.js
     ```
