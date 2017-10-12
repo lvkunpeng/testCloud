@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
     res.send('Hello World!');
 });
 app.get("/tablist",function (req,res) {
-    res.send("")
+    res.send("返回一个表格数据")
 });
 
 var server = app.listen(3000, function () {
